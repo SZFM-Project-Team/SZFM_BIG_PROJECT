@@ -27,7 +27,15 @@ Egy olyan kérdőívet szükséges látrehoznunk ami jól átlátható, van vala
 
 >Használati esetek
 ---
-
+Ez a kérdőív bárki számára elérhető lesz, és a következő esetekben használható:
+1. egyszerű adatgyűjtés:
+ + igaz-hamis kérdés
+ + felelet választós kérdés
+ + kitöltendő kérdés
+2. tematizált adatgyűjtés:
+ + igaz-hamis kérdés
+ + felelet választós kérdés
+ + kitöltendő kérdés
 
 >Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ---
