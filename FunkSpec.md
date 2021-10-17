@@ -10,7 +10,8 @@ Az adatokat nem kell feldolgozni, a program célja az adatok gyűjtése.
 
 >Jelenlegi helyzet
 ---
-
+A megrendelő egy olyan kérdőívet szeretne kapni, amivel objektív képet alkothat egy-egy témában. Ezt úgy szeretné elérni, hogy egy olyan webes kérdőívet kér, amit az egész világról elérnek. Mivel a cégük főleg az élővilággal foglalkozik, és jelenleg a pingvineken végez kutatást, így egy olyan kérdőívet kell létrehozni ami jól passzol az élővilággal kapcsolatos témákhoz.
+Egy olyan kérdőívet szükséges látrehoznunk ami jól átlátható, van valami díszítés rajta, hogy megfogja az emberek figyelmét, és emellett makulátlanul működik is.
 
 >Követelménylista
 ---
@@ -26,7 +27,15 @@ Az adatokat nem kell feldolgozni, a program célja az adatok gyűjtése.
 
 >Használati esetek
 ---
-
+Ez a kérdőív bárki számára elérhető lesz, és a következő esetekben használható:
+1. egyszerű adatgyűjtés:
+ + igaz-hamis kérdés
+ + felelet választós kérdés
+ + kitöltendő kérdés
+2. tematizált adatgyűjtés:
+ + igaz-hamis kérdés
+ + felelet választós kérdés
+ + kitöltendő kérdés
 
 >Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ---
