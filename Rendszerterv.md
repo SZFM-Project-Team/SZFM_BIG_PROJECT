@@ -16,7 +16,49 @@ A rendszer legyen képes egy adatbázisban tárolni a begyűjtött adatokat.
 
 > Projektterv
 ---
+## Projektszerepkörök, felelőségek:
 
+Projekt menedzser: Fiedler Norbert Béla  
+  
+Projektmunkások és felelőségek:  
+  
+**Backend** munkálatok:
+  
+- Fiedler Norbert Béla  
+  
+- Tari Levente  
+  
+- Horváth István  
+  
+- Naghi Patrick Mark  
+
+Feladatuk a kérdőív által nyert adatok tárolása, szükséges adatbázis(ok) létrehozása.  
+  
+**Frontend** munkálatok:  
+  
+- Fiedler Norbert Béla  
+  
+- Szakács Ágnes  
+  
+Feladatuk a kérdőív kinézetének minél stílusosabb és egyszerűbb kivitelezése CSS és HTML segítségével.  
+  
+# Ütemterv:
+| Funkció | Feladat | Prioritás | Becslés | Akt. becslés | Eltelt | Hátralévő
+| ------ | :------: | :------: | :------: | :------: | :------: | :------: |
+| Követelmény specifikáció |  | 0 | 12 | 12 | 12 | 0 |
+| Funkcionális specifikáció |  | 0 | 12 | 12 | 12 | 0 |
+| Rendszerterv |  | 0 | 18 | 18 | 18 | 0 |
+| Adatbázis létrehozása |  | 1 | 5 | 5 | 0 | 5 |
+| Válaszok lementése adatbázisba| | 1 | 5 | 5 | 0 | 5 |
+| Weboldal grafikus megjelenítése| HTML | 1 | 3 | 3 | 0 | 3 |
+|  | CSS | 1 | 10 | 10 | 0 | 10 |
+| Teszt |  | 1 | 30 | 30 | 0 | 30 |
+| Projektvezetés |  | 2 | 30 | 30 | 0 | 30 |
+|  |  | Órák: | 125 | 125 | 42 | 83 |
+|  |  | Embernap: | 15.625 | 15.625 | 5.25 | 10.375 |
+| |  |  |  |  |  |  |
+| Napidíj: |  | 28 000 Ft |  |  |  |  |
+| Árajánlat: |  | 448 000 Ft |  |  |  |  |
 
   
 > Üzleti folyamatok modellje
