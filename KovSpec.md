@@ -62,7 +62,17 @@ Ezért a kérdőívünkbe implementálni szeretnénk egy úgy nevezett "szűrés
 
 >Követelménylista
 ---
-
+- Biztonság https protocol amellyel biztosítjuk a felhasználó védettségét a weben.
+- Egy választási lehetőséggel rendelkező kérdés és annak a választófelülete
+- Több választási lehetőséggel rendelkező kérdés és annak a választófelülete
+- Saját válasz beírása lehetőséggel rendelkező kérdés és annak a beírósáv felülete
+- Legördülő menü hozzáadása és annak a felülelte
+- Egy validációs ikon beimplementálása a helyesen beírt adat visszacsatolásához
+- Egy validációs ikon beimplementálása a helytelenül beírt adat visszacsatolásához
+- Dinamikusan változó kérdés implementlása egy kapcsoló bekapcsolásával
+- Adatbázis kommunikáció a weboldal és egy webszerver adatbázisával
+- Díszítés megalkotása a felülethez
+- UI megalkotása a felülethez
 
 >Riportok
 ---
@@ -78,3 +88,15 @@ A kérdőív legyen képes különböző válaszok bekérésére pl.:
 
 >Fogalomtár
 ---
+1. **Reszponzív felület** - Mobilon, Tableten, *PC*-n igazodik a képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül üzemelhet.”
+2. **Webszerver** - egy kiszolgáló, mely elérhetővé teszi a helyileg (esetleg más kiszolgálón) tárolt weblapokat a *HTTP* protokollon keresztül.
+3. **HTML** - angolul: *HyperText Markup Language*=hiperszöveges jelölőnyelv, egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a *W3C* (World Wide Web Consortium) támogatásával.
+4. **CSS** - Cascading Style Sheets, magyarul: lépcsőzetes stíluslapok, a számítástechnikában egy stílusleíró nyelv, mely a *HTML* vagy *XHTML* típusú strukturált dokumentumok megjelenését írja le.
+5. **JavaScript** - programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+6. **PHP** - egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére.
+7. **PNG** - *Portable Network Graphics* képek tárolására, veszteségmentes tömörítésére alkalmas fájlformátum.
+8. **JPEG** - *Joint Photographic Experts Group* képek tárolására alkalmas fájlformátum.
+9. **HTTPS** - *HyperText Transfer Protocol Safe* egy URI-séma, amely biztonságos http kapcsolatot jelöl.
+10. **Kliens** - olyan számítógép vagy azon futó program, amelyik hozzáfér egy *(távoli)* szolgáltatáshoz, amelyet egy számítógép hálózathoz tartozó másik számítógép *(a szerver)* nyújt.
+11. **Adatbázis** - Az *adatbázis* azonos minőségű (jellemzőjű), többnyire strukturált adatok összessége, amelyet egy azok tárolására, lekérdezésére és szerkesztésére alkalmas szoftvereszköz kezel.
+12. **Sütik** - A *HTTP-süti* (általában egyszerűen süti, illetve angolul cookie) egy információcsomag, amelyet a szerver küld a webböngészőnek, majd a böngésző visszaküld a szervernek minden, a szerver felé irányított kérés alkalmával.
