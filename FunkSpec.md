@@ -68,7 +68,28 @@ Az adatokat egy adatbázisban eltároljuk.
 
 >Funkció - követelmény megfeleltetés
 ---
-
+Ennek a kérdőívnek, mint bármely másiknak az alapkövetelménye, hogy bizonyos kérdésekre választ lehessen adni.
+A gyűjtött adatok tárolása szintén fontos, hisz szeretnénk majd látni őket.
+Az adatok rögzítését/feleletadást a követző képpen oldanánk meg:
+- A grafikus felületen a válaszadáshoz megfelelő válaszadóopciók jelennek meg:
+- + Igaz hamis esetén:
+- - + A felhasználó két válaszlehetőség közül választhat majd, ezek "igaz"/"hamis"vagy "igen"/"nem". 
+- - + Ezek mellett az opciók mellett egy-egy rádiógomb fog megjelenni, ezekből egyet kiválasztva rögzítheti a felhasználó a válaszát.
+- + Egy felelet választós esetén:
+- - + Több válaszlehetőseg szerepel majd a képernyőn, ezek mellett egy-egy rádiógomb fog megjelenni.
+- - + A felhasználó több válaszlehetőseg közül szigorúan csak egy kiválasztására lesz képes.
+- + Több felelet választós esetén:
+- - + Több válaszlehetőseg szerepel majd a képernyőn, ezek mellett egy-egy checkbox fog megjelenni.
+- - + A felhasználó itt egy vagy akár több válasz kiválasztására is képes lesz.
+- + Saját válasz megadós esetén:
+- - + Egy szövegsáv fog megjelenni a grafikus felületen.
+- - + Itt a felhasználó egy saját maga által megfogalmazott választ képes majd rögzíteni.
+- - + Ez a szövegsáv meg fog jelenni néhány egy felelet választós, illetve több felelet választós modulnál is.
+- - + Ezáltal nem limitáljuk le a felhasználók válaszlehetősegeit a mi általunk kigondolt válaszlehetősegekre;
+- - + Hiszen nyitottak vagyunk több nézőpontra is,
+- - + Illetve ezáltal fejleszthetjük a későbbiekben a kérdőív válaszlehetősegeit.
+A kérdőív állapotmentését a böngészők tárolójával oldjuk meg, így esetleges megszakítások esetén majd lehet folytatni a megkezdett kérdőíveket.
+A kérdőív befejezéséhez elhelyezünk a képernyőn egy "SUBMIT" típusú gombot mellyel a rögzített válaszokat eltároljuk egy adatbázisban.
 
 >Fogalomszótár
 ---
