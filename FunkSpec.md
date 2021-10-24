@@ -19,7 +19,15 @@ Egy olyan kérdőívet szükséges látrehoznunk ami jól átlátható, van vala
 
 >Jelenlegi üzleti folyamatok modellje
 ---
-
+Létrehoztunk egy olyan online kérdőívet mely képes úgy nevezett szűrésre a felhasználók között.
+Ez azért fontos, mert vannak olyan esetek amikor szeretnénk több kreditet adni azon felhasználók válaszára akiknek van tapasztalatuk az adott témában.
+Ezért a kérdőív tényleges kitöltése előtt egy kisebb "tesztet" íratunk velük amiből kiderül, hogy mennyit számít a rálátásuk egy adott témakörben.
+A felhasználók a kérdőív kitöltése során számos válaszlehetőséggel találhatják magukat szemben:
++ igaz-hamis választós;
++ egy feleltet választós
++ több feletet választós
++ illetve saját válasz megadós 
+E mellett a kérdőív során rögzített adatok a háttérben tárolásra kerülnek. Természetesen ezen adatok titkosítva vannak, és nem megengedett a velük való visszaélés.
 
 >Igényelt üzleti folyamatok modellje
 ---
