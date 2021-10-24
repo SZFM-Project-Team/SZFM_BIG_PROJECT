@@ -31,7 +31,24 @@ E mellett a kérdőív során rögzített adatok a háttérben tárolásra kerü
 
 >Igényelt üzleti folyamatok modellje
 ---
-
+1. Online megjelenés.
+2. Válaszok elmentése adatbázisba.
+    2.1. megválaszolt kérdés => válasz mentése adatbázisba
+    2.2  nem megválaszolt kérdés => a válasz helyett NULL érték felvétele az adott kérdéshez
+3. Az egyéb válaszmegjelölés átnézése, és csak az értelmes válaszok elmentése adatbázisba.
+4. A kérdőív folytatásának garantalásása, nem várt kilépés esetén.  
+   4.1. regisztráláshoz kötött kérdőívitöltés:  
+   4.1.1 email megadása és helyességének (@ jel) vizsgálata  
+   4.1.2 helyes email cím és kitöltött jelszó => felhasználó létrehozása  
+   4.1.3 regisztrált email cím és helyes jelszó => bejelentkezés
+   4.1.4 regisztrált email cím és helytelen jelszó => hibás felhasználónév vagy jelszó
+5. Kötelező adatok megadásának ellenörzése  
+   5.1. nem, életkor és az egyéb kötelező adatok megadásának hiányossága => felszólítás az adatok pótlására, nem küldhető el enélkül a kérdőív  
+   5.2  nem, életkor és az egyéb kötelező adatok kitöltése => küldhető kérdőív
+6. A teszt kérdések megválaszolása esetén a helyesség ellenőrzése 
+   6.1 helyes választ adott => jártas a kitöltő a témában
+   6.2 nem helyes a válasza => nem annyira jártas a kitöltő a témában
+   
 
 >Használati esetek
 ---
