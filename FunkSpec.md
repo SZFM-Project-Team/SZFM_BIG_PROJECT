@@ -15,7 +15,17 @@ Egy olyan kérdőívet szükséges látrehoznunk ami jól átlátható, van vala
 
 >Követelménylista
 ---
-
+- Biztonság https protocol amellyel biztosítjuk a felhasználó védettségét a weben.
+- Egy választási lehetőséggel rendelkező kérdés és annak a választófelülete, vizsgálás, hogy kizárólag egy opció van bejelölve egyszerre
+- Több választási lehetőséggel rendelkező kérdés és annak a választófelülete, vizsgálása annak az esetnek, hogy ha egy opció sincsen bejelölve, vagyis legalább egy jelölés van
+- Saját válasz beírása lehetőséggel rendelkező kérdés és annak a beírósáv felülete, nem üres a mező, illetve ahol számot kér, oda szám érték kerüljön
+- Legördülő menü hozzáadása és annak a felülelte
+- Egy validációs ikon beimplementálása a helyesen beírt adat visszacsatolásához, az érvényes válasz esetén megjelenjen az elfogadó pingvin ikon
+- Egy validációs ikon beimplementálása a helytelenül beírt adat visszacsatolásához, érvénytelen válasz esetén vizsgáljon és jelenítse meg az elutasító pingvin ikont
+- Dinamikusan változó kérdés implementlása egy kapcsoló bekapcsolásával, például ha valamilyen kérdés igényli, akkor bővítheti az adott kérdésre adott válaszokat vagy ha kikapcsolja azt a felhasználó, akkor visszatérjen az eredeti státuszába.
+- Adatbázis kommunikáció a weboldal és egy webszerver adatbázisával, a felhasználó által írt válaszok felküldése egy adatbázisba a későbbi adatok kinyerése érdekében
+- Díszítés megalkotása a felülethez, hozzá kattintható funkciók, mint gombok vagy oldal díszek
+- UI megalkotása a felülethez
 
 >Jelenlegi üzleti folyamatok modellje
 ---
