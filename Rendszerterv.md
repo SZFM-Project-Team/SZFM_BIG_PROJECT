@@ -28,7 +28,15 @@ A rendszer legyen képes egy adatbázisban tárolni a begyűjtött adatokat.
   
 > Követelmények
 ---
-
+Funkcionális követelmények:
++ A rendszernek egy bárhonnan elérhető kérdőívet, és annak kitöltéséhez megfelelő körülményeket kell biztosítania.
++ A rendszernek képesnek kell lennie a felhasználók "szűrésére".
++ A rendszernek képesnek kell lennie a felhasználó számára lehetővé tenni egy megkezdett de be nem fejezett kérdőív befejezését.
++ A rendszernek képesnek kell lenni egy adatbázisban tárolni az adatokat.
+Nem funkcionális követelmények:
++ A felhasználók nem juthatnak hozzá más felhasználók személyes adataihoz.
+Törvényi előírások, szabványok:
++ GDPR-nek való megfelelés.
   
 > Funkcionális terv
 ---
