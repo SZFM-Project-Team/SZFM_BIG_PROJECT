@@ -65,6 +65,29 @@ Rendszerhasználati esetek és lefutásaik:
   
 > Adatbázis terv
 ---
+A kérdőív webes része php-ban lesz megcsinálva, ezért egy MySQL kapcsolatot létre kell hoznunk, ami a REST api-t fogja használni majd.
+
+A kitöltött kérdőíveket fogjuk itt tárolni majd.
+
+Ezt a kapcsolatot a php kódban fogjuk létrehozni, és alkalmazni.
+
+Mivel előzetes regisztrációt nem igényel az oldal, ezért további adatbázisra jelen állás szerint nincsen szükség.
+
+Viszont esetleges továbbfejlesztés esetén elképzelhető, hogy kelleni fog egy fejlesztés az adatbázisra, itt a felhasználókat kell majd eltárolni.
+
+A tábla amit készíteni fogunk tartalmazni fogja oszlopszinten a kérdés sorszámát, sorszinten pedig a kitöltött kérdőíveket.
+
+Egy-egy sorban minden elemhez lesz érték, ami a sorszámhoz tarzozó kérdésre fogja a választ tartalmazni.
+
+Csak teljes kitöltés fog belekerülni az adatbázisba.
+
+Valahogy így fog kinézni:
+
+| 1. kérdés | 2. kérdés | ... | 10. kérdés |
+| :---  | :--:| :----: |  -----:   |
+| 1. válasz | 2. Válasz | ... | 10. Válasz |
+| 1. válasz | 2. Válasz | ... | 10. Válasz |
+| 1. válasz | 2. Válasz | ... | 10. Válasz |
 
   
 > Implementációs terv
@@ -73,11 +96,24 @@ Rendszerhasználati esetek és lefutásaik:
   
 > Tesztterv
 ---
-
+Több dolgot is szükséges letesztelni egy ilyen alkalmazásnál.
+Főbb tesztelési lépéseink:
+1. Megjelenés és kezelhetőség
+2. Kérdések helyes sorrendben jelennek meg
+3. Minden kérdésre lehet választ adni
+4. Az adatbázis megfelelően tárolja az adatokat
+5. A weboldal megnyitható az interneten
+6. A félbehagyott kérdőívet hibamentesen lehet folytatni
+7. A felhasználó szűrés hatékonyan működik
   
 > Telepítési terv
 ---
+A kérdőív egy webes alkalmazásként kerül megalkotásra így nem szükséges telepíteni semmilyen alkalmazást.
 
+Maga a kérdőív egy webszerveren lesz elérhető, így a kliens oldalon mindössze ennyinek kell szerepelnie:
+- Egy böngésző amiben támogatott az adott weboldal elérése. (Google Chrome, Mozilla Firefox, Opera, stb.)
+- Webszerver eléréséhez internetkapcsolat szükségeltetik.
+- Elsősorban számítógépes környezet preferált, de reszponzív megoldás, telefonos megoldás működik.
   
 > Karbantartási terv
 ---
