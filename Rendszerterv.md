@@ -1,7 +1,18 @@
 # Rendszerterv
 > A rendszer célja
 ---
-
+A Rendszer célja, hogy adatok gyűjtsön bizonyos témákkal kapcsolatban.
+A kész projektnek elérhetőnek kell lennie :
++ asztali számítógépről(PC)
++ laptopról
++ okostelefonról
++ tablettről
+Ezen eszközök MINDEN böngészójéről
+A kérdőív legyen képes több féle válaszadó lehetőséget feltűntetni.
+A rendszernek képesnek kell lennie bizonyos esetekben "szűrni" a felhasználókat.
+A felhasználó legyen képes a válaszok rögzítésére/leadására/törlésére.
+A Felhasználónak képesnek kell lennie folytatni egy elkezdett de még nem befejezett kérdőív kitöltését.
+A rendszer legyen képes egy adatbázisban tárolni a begyűjtött adatokat.
 
 > Projektterv
 ---
@@ -17,11 +28,32 @@
   
 > Követelmények
 ---
-
+Funkcionális követelmények:
++ A rendszernek egy bárhonnan elérhető kérdőívet, és annak kitöltéséhez megfelelő körülményeket kell biztosítania.
++ A rendszernek képesnek kell lennie a felhasználók "szűrésére".
++ A rendszernek képesnek kell lennie a felhasználó számára lehetővé tenni egy megkezdett de be nem fejezett kérdőív befejezését.
++ A rendszernek képesnek kell lennie egy adatbázisban tárolni az adatokat.
+Nem funkcionális követelmények:
++ A felhasználók nem juthatnak hozzá más felhasználók személyes adataihoz.
+Törvényi előírások, szabványok:
++ GDPR-nek való megfelelés.
   
 > Funkcionális terv
 ---
-
+Rendszerszereplők:
++ Rendszergazda (ADMIN)
++ Felhasználó
+Rendszerhasználati esetek és lefutásaik:
++ Rendszergazda:
+- + Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
++ Felhasználó:
+- + Képes regisztrálni magát a weboldalon
+- + Képes bejelentkezni a weboldalon a saját adataival(ID, felhasználónév, email cím, jelszó).
+- + Használhatja a webes alkalmazást, és annak minden funkcióját, azaz:
+- - + válasz rögzítés;
+- - + válasz törlés;
+- - + kérdőív befejezése/véglegesítése majd adatok továbbítása.
+- + Képes User-reportot küldeni amiben jelent bármilyen hibát/bugot az alkalmazással kapcsolatban.
 
 > Fizikai környezet
 ---
