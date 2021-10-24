@@ -108,7 +108,12 @@ Főbb tesztelési lépéseink:
   
 > Telepítési terv
 ---
+A kérdőív egy webes alkalmazásként kerül megalkotásra így nem szükséges telepíteni semmilyen alkalmazást.
 
+Maga a kérdőív egy webszerveren lesz elérhető, így a kliens oldalon mindössze ennyinek kell szerepelnie:
+- Egy böngésző amiben támogatott az adott weboldal elérése. (Google Chrome, Mozilla Firefox, Opera, stb.)
+- Webszerver eléréséhez internetkapcsolat szükségeltetik.
+- Elsősorban számítógépes környezet preferált, de reszponzív megoldás, telefonos megoldás működik.
   
 > Karbantartási terv
 ---
