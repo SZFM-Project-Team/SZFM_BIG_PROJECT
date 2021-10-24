@@ -26,6 +26,11 @@ Ahhoz hogy felmérjük a felhasználó témához értését tegyünk fel kalibr�
 
 >Rendszerre vonatkozó törvények, szabályok ajánlások
 ---
+A web felület szabványos eszközökkel készüljüön, html/css/javascript/php.  
+A képek jpeg vagy png formátumúak lehetnek.  
+A felhasznlókat azonosító  web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR  
+A rendszer bíztosítsa a kérdőívet kitöltő személy teljes anonimítást.  
+Mindenképp biztosítsa a rendszer az elkezdett, de valamilyen okból félbeszakadt kérdőív kitöltésének folytatását.
 
 
 >Jelenlegi üzleti folyamatok modellje
