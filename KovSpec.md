@@ -58,7 +58,8 @@ Ezért a kérdőívünkbe implementálni szeretnénk egy úgy nevezett "szűrés
 2. Válaszok elmentése adatbázisba.
 3. Az egyéb válaszmegjelölés átnézése, és csak az értelmes válaszok elmentése adatbázisba.
 4. A kérdőív folytatásának garantalásása, nem várt kilépés esetén.
-   
+5. Kötelező adatok megadásának ellenörzése.
+6. A teszt kérdések megválaszolása esetén a helyesség ellenőrzése.
 
 >Követelménylista
 ---
