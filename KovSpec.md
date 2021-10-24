@@ -53,7 +53,11 @@ Ezért a kérdőívünkbe implementálni szeretnénk egy úgy nevezett "szűrés
 
 >Igényelt üzleti folyamatok
 ---
-
+1. Online megjelenés.
+2. Válaszok elmentése adatbázisba.
+3. Az egyéb válaszmegjelölés átnézése, és csak az értelmes válaszok elmentése adatbázisba.
+4. A kérdőív folytatásának garantalásása, nem várt kilépés esetén.
+   
 
 >Követelménylista
 ---
