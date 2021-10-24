@@ -74,7 +74,7 @@ Ez a kérdőív bárki számára elérhető lesz, és a következő esetekben ha
 
 >Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ---
-
+A használati esetek úgy fedik le a követelményeket, hogy függetlenül attól, hogy milyen adatgyűjtést kívánunk használni, mind a három fajta kérdéstípust a rendelkezésünkre bocsájtja amik a követelményben meg van említve.
 
 >Képernyő tervek
 ---
