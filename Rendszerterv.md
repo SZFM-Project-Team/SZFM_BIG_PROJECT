@@ -65,21 +65,21 @@ Feladatuk a kérdőív kinézetének minél stílusosabb és egyszerűbb kivitel
 ---
 1. Online megjelenés.
 2. Válaszok elmentése adatbázisba.
-    2.1. megválaszolt kérdés => válasz mentése adatbázisba
-    2.2  nem megválaszolt kérdés => a válasz helyett NULL érték felvétele az adott kérdéshez
+      2.1. megválaszolt kérdés => válasz mentése adatbázisba
+      2.2  nem megválaszolt kérdés => a válasz helyett NULL érték felvétele az adott kérdéshez
 3. Az egyéb válaszmegjelölés átnézése, és csak az értelmes válaszok elmentése adatbázisba.
 4. A kérdőív folytatásának garantalásása, nem várt kilépés esetén.  
-   4.1. regisztráláshoz kötött kérdőívitöltés:  
-   4.1.1 email megadása és helyességének (@ jel) vizsgálata  
-   4.1.2 helyes email cím és kitöltött jelszó => felhasználó létrehozása  
-   4.1.3 regisztrált email cím és helyes jelszó => bejelentkezés
-   4.1.4 regisztrált email cím és helytelen jelszó => hibás felhasználónév vagy jelszó
+      4.1. regisztráláshoz kötött kérdőívitöltés:  
+      4.1.1 email megadása és helyességének (@ jel) vizsgálata  
+      4.1.2 helyes email cím és kitöltött jelszó => felhasználó létrehozása  
+      4.1.3 regisztrált email cím és helyes jelszó => bejelentkezés
+      4.1.4 regisztrált email cím és helytelen jelszó => hibás felhasználónév vagy jelszó
 5. Kötelező adatok megadásának ellenörzése  
-   5.1. nem, életkor és az egyéb kötelező adatok megadásának hiányossága => felszólítás az adatok pótlására, nem küldhető el enélkül a kérdőív  
-   5.2  nem, életkor és az egyéb kötelező adatok kitöltése => küldhető kérdőív
+      5.1. nem, életkor és az egyéb kötelező adatok megadásának hiányossága => felszólítás az adatok pótlására, nem küldhető el enélkül a kérdőív  
+      5.2  nem, életkor és az egyéb kötelező adatok kitöltése => küldhető kérdőív
 6. A teszt kérdések megválaszolása esetén a helyesség ellenőrzése 
-   6.1 helyes választ adott => jártas a kitöltő a témában
-   6.2 nem helyes a válasza => nem annyira jártas a kitöltő a témában
+      6.1 helyes választ adott => jártas a kitöltő a témában
+      6.2 nem helyes a válasza => nem annyira jártas a kitöltő a témában
   
 > Követelmények
 ---
@@ -116,7 +116,32 @@ Rendszerhasználati esetek és lefutásaik:
   
 > Architekturális terv
 ---
- 
+A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúráját két külön részre bontjuk szét.
+  
+Az egyik része a **Bakckend** a másik pedig a **Frontend** lesz.
+  
+A felhasználó kliens ezek közül csak a **Frontend** részével fog találkozni, míg a **Backend** része a webszerver adatbázisán fogja a vizsgálatokat végrehajtani.
+  
+A **Backend** részhez szükséges:
+  
++ Adatbázis szerver, a szoftver ehhez a MySQL adatbázist fogja használni.
+  
++ Adatbázis szerverhez csatlakozó REST api, ami PHP alapú lesz.  
+  
++ Kliensekkel kommunikáló szövegek.  
+  
++ Keretrendszer PHP-hoz (pl.: Laravel)
+  
+A **Frontend** részéhez:  
+  
++ A kérdőív felépítésének ábrázolása ***HTML*** és ***CSS*** kóddal.  
+
++ Bootstrap alkalmazása
+  
++ Kliens elérése a webszerverhez.  
+  
++ PHP funkciók hozzáadása és JavaScript funkciók.  
+
   
 > Adatbázis terv
 ---
@@ -147,7 +172,15 @@ Valahogy így fog kinézni:
   
 > Implementációs terv
 ---
+A webes felület php, javascript, jQuery és HTML  nyelven fog készülni.
 
+A különböző valós idejű változásokat AJAX-al fogja végrehajtani a szoftver.
+
+A weboldal designolása CSS ben lesz végrehajtva és a Bootstrap előre megírt osztályaival lesz elrendezve.
+  
+Az adatbázist a PHP által nyújtott MySQL adatbázis elérés eszközeivel fogjuk elérni (mint pl.: PDO vagy MySQLi).
+
+Maguk a kérdések egy form alapján lesznek megalkotva és a bennük lévő adatokat a PHP Post metódussal fogjuk a webszerver számára, onnan pedig az adatbázisba betölteni.
   
 > Tesztterv
 ---
@@ -188,3 +221,4 @@ Maga a kérdőív egy webszerveren lesz elérhető, így a kliens oldalon mindö
 10. **Kliens** - olyan számítógép vagy azon futó program, amelyik hozzáfér egy *(távoli)* szolgáltatáshoz, amelyet egy számítógép hálózathoz tartozó másik számítógép *(a szerver)* nyújt.
 11. **Adatbázis** - Az *adatbázis* azonos minőségű (jellemzőjű), többnyire strukturált adatok összessége, amelyet egy azok tárolására, lekérdezésére és szerkesztésére alkalmas szoftvereszköz kezel.
 12. **Sütik** - A *HTTP-süti* (általában egyszerűen süti, illetve angolul cookie) egy információcsomag, amelyet a szerver küld a webböngészőnek, majd a böngésző visszaküld a szervernek minden, a szerver felé irányított kérés alkalmával.
+13. **Keretrendszer** - A számítógép-programozásban a szoftverkörnyezet egy absztrakció, ami a szoftver által nyújtott általános funkcionalitást képes szelektíven megváltoztatni a felhasználói kód alapján, így alkalmazásspecifikus szoftvert biztosítanak.
