@@ -51,7 +51,25 @@ Ez a kérdőív bárki számára elérhető lesz, és a következő esetekben ha
 
 >Képernyő tervek
 ---
+A tervezete a felületnek (EZ JELENLEG CSAK EGY KEZDETI ÁLLAPOT, A VÉGEREDMÉNY ELTÉRŐ LESZ):
+![Questionnarie Plan Preview](/plan.png) <br>
 
+
+A felhasznált ikonok:
+=====================
+
+Ezzel az ikonnal jelezzük, ha a kitöltés érvényessége megfelelő:
+
+![Penguin Accepted](/penguin_accepted.png) <br>
+
+Ezzel az ikonnal jelezzük, ha a kitöltés érvényessége nem megfelelő:
+
+![Penguin Accepted](/penguin_declined.png) <br>
+
+- A webalkalmazás tetején helyezkedik el a projekt címe
+- Az egy válaszos választó felület 5 válasz opcióval fog megjelenni, de csak az egyik lesz jó közülük
+- Egy táblázatos elrendezésben fognak megjelenni a kérdések, a sorszámuk és a válaszok
+- A kérdések egymás alatt fognak elhelyezkedni
 
 >Forgatókönyv
 ---
