@@ -40,7 +40,20 @@ Törvényi előírások, szabványok:
   
 > Funkcionális terv
 ---
-
+Rendszerszereplők:
++ Rendszergazda (ADMIN)
++ Felhasználó
+Rendszerhasználati esetek és lefutásaik:
++ Rendszergazda:
+- + Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
++ Felhasználó:
+- + Képes regisztrálni magát a weboldalon
+- + Képes bejelentkezni a weboldalon a saját adataival(ID, felhasználónév, email cím, jelszó).
+- + Használhatja a webes alkalmazást, és annak minden funkcióját, azaz:
+- - + válasz rögzítés;
+- - + válasz törlés;
+- - + kérdőív befejezése/véglegesítése majd adatok továbbítása.
+- + Képes User-reportot küldeni amiben jelent bármilyen hibát/bugot az alkalmazással kapcsolatban.
 
 > Fizikai környezet
 ---
