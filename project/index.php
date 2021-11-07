@@ -18,6 +18,74 @@
                 vero quos necessitatibus ipsam! Nemo illo quae consequatur error voluptatum.</p>
         </header>
 
+        <?php
+
+            class NewQuestion 
+            {
+
+                function addTrueOrFalse($block_name) 
+                {
+                    echo '<div class="input-wrapper ">
+                    <h1>'.$block_name.'</h1>
+                    <div class="radio">
+                        <input type="radio" name="q1" id="true">
+                        <label>True</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="q1" id="false">
+                        <label>False</label>
+                    </div>
+                </div>';
+                }
+
+                function oneChoiceOnly($block_name, $block_values = array()) 
+                {
+                    echo '<div class="input-wrapper">
+                        <h1>'.$block_name.'</h1>';
+                        $i = 1;
+                        foreach ($block_values as $bv)
+                        {
+                            echo    '<div class="radio">
+                                        <input type="radio" name="q2" id="'.$i.'st-one-chose-only">
+                                        <label for="'.$i.'st-one-chose-only">'.$bv.'</label>
+                                    </div>';
+                            $i++;
+                        }
+                    echo '</div>';
+                }
+
+                function multipleChoice($block_name, $block_values = array())
+                {
+                    echo    '<div class="input-wrapper">
+                                <h1>'.$block_name.'</h1>';
+                    $i = 1;
+                    foreach ($block_values as $bv)
+                    {
+                        echo    '<div class="checkbox">
+                                    <input type="checkbox" name="cb" id="cb'.$i.'">
+                                    <label for="cb'.$i.'">'.$bv.'</label>
+                                </div>';
+                        $i++;
+                    }
+
+                    echo '</div>';
+                }
+
+                function customAnswer($block_name, $customPlaceholder = "Válasz helye...")
+                {
+                    echo    '<div class="input-wrapper">
+                                <h1>'.$block_name.'</h1>
+                                <div class="own-answear">
+                                    <textarea name="" id="" cols="50" rows="5" placeholder="'.$customPlaceholder.'"></textarea>
+                                </div>
+                            </div>';
+                }
+            }
+
+            $addQA = new NewQuestion;
+
+        ?>
+
         <!-- trueorfalse radio
                 onechoseonly radio
                 morethafalsenechose checkbox
@@ -87,6 +155,18 @@
                     <textarea name="" id="" cols="50" rows="5" placeholder="Your answear"></textarea>
                 </div>
             </div>
+
+            
+            <?php
+            
+                $addQA->addTrueOrFalse("Igaz vagy Hamis");
+                $addQA->addTrueOrFalse("Almafa");
+                $addQA->oneChoiceOnly("Válassz egyet!", array("Almafa", "Kecske", "Répa", "Retek", "Mogyoró"));
+                $addQA->multipleChoice("Válassz többet!", array("Almafa", "Kecske", "Répa", "Retek", "Mogyoró"));
+                $addQA->customAnswer("Mit gondolsz...");
+
+
+            ?>
         
         
             <div class="submit pointer">
