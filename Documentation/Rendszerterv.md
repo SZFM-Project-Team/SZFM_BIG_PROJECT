@@ -112,8 +112,12 @@ Rendszerhasználati esetek és lefutásaik:
 
 > Fizikai környezet
 ---
+Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül.  
+Emellett használunk adatbázist az adatok tárolására.  
+Fejlesztői eszközök:  
+* Notepad++;  
+* Visual studio code;  
 
-  
 > Architekturális terv
 ---
 A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúráját két külön részre bontjuk szét.
@@ -205,7 +209,17 @@ Maga a kérdőív egy webszerveren lesz elérhető, így a kliens oldalon mindö
   
 > Karbantartási terv
 ---
+A weboldal folyamatos üzemeltetése és karban tartása a következőket foglalja magában:  
+  
+- A felhasználók által bejelentett bugok, hibák kijavítása.
 
+- Igény esetén a kérdőív funkcióinak bővítése.  
+  
+- Igény esetén a kérdőív kérdéseinek bővítése.
+  
+- A böngészők újabb verzióival való kompatibilitás.  
+
+- A felhasználók bejelentkezési információinak megváltoztatása, illetve törlése.
   
 > Fogalomtár
 ---
