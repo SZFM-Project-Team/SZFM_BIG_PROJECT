@@ -112,13 +112,12 @@ Rendszerhasználati esetek és lefutásaik:
 
 > Fizikai környezet
 ---
-
 Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül.  
 Emellett használunk adatbázist az adatok tárolására.  
 Fejlesztői eszközök:  
 * Notepad++;  
 * Visual studio code;  
-  
+
 > Architekturális terv
 ---
 A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúráját két külön részre bontjuk szét.
