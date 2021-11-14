@@ -61,7 +61,7 @@
             </div>
             <div id="overlay"></div>
         </header>
-
+       
         <?php
         $igazhamis = 0;
         $egyvalasz = 0;
@@ -324,7 +324,7 @@
                 <input type="submit" name="store" value="Send" class="button pointer">
             </div>
         </form>
-        
+
         <?php
 
             if (isset($_POST['store'])) 
