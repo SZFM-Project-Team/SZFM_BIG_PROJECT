@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css-reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Philosopher:wght@700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Philosopher:wght@700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <title>Questionare</title>
 </head>
@@ -24,10 +24,10 @@
         </header>
 
         <?php
-            class NewQuestion 
+            class NewQuestion
             {
 
-                function addTrueOrFalse($block_name, $name) 
+                function addTrueOrFalse($block_name, $name)
                 {
                     echo '<div class="input-wrapper ">
                     <h1>'.$block_name.'</h1>
@@ -42,7 +42,7 @@
                 </div>';
                 }
 
-                function oneChoiceOnly($block_name, $name, $block_values = array()) 
+                function oneChoiceOnly($block_name, $name, $block_values = array())
                 {
                     echo '<div class="input-wrapper">
                         <h1>'.$block_name.'</h1>';
@@ -194,7 +194,31 @@
 
 
             ?>
-        
+            <script>
+                try
+                {
+                    autoLoadTrueFalse(ih_items);
+                } catch (e)
+                {
+                    console.log(e);
+                }
+
+                try
+                {
+                    autoLoadOneChoice(oc_ids, oc_items);
+                } catch (e)
+                {
+                    console.log(e);
+                }
+
+                try
+                {
+                    autoLoadMultiChoice(multi_ids, multi_itemids);
+                } catch (e)
+                {
+                    console.log(e);
+                }
+            </script>
         
             <div class="submit pointer">
                 <input type="submit" value="Send" class="button pointer">
