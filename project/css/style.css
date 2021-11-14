@@ -9,51 +9,68 @@ body{
 .container{
     /* background-color: #d8dcdd2c; */
     min-height: 300px;
-    max-width: 1024px;
+    max-width: 800px;
     margin: 0 auto;
     padding-top: 10px;
+
 }
 
 header{
-    border: 2px solid black;
+    border: 2px solid rgba(255, 255, 255, 0.717);
     border-radius: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 10px;
-    color: white;
+    color: rgba(255, 255, 255, 0.717);
 }
 
 
 header h1{
     font-family: 'Philosopher', sans-serif;
-    font-size: 3.8em;
-    padding: 30px;
+    font-size:2.5em;
+    padding: 20px;
 }
 
 h1+p{
     font-family: 'Mulish', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     padding: 0 40px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    line-height: 1;
 }
 
 form h1{
-    margin:20px;
+    margin-left:20px;
     font-family: 'Philosopher', sans-serif;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 .button{
     background-color:#3391D1;
     color:white;
     font-family: 'Mulish', sans-serif;
-    padding: 25px 45px;
+    padding: 20px 35px;
     display: inline-block;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 7px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
+}
+ .tutorial{
+    margin-left: 40px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #d8dcdd;
+    color: #3391D1;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 1000;
 }
  .tutorial{
     margin-left: 30px;
@@ -71,7 +88,7 @@ form h1{
 }
 
 .submit{
-    margin: 50px 0;
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -80,15 +97,18 @@ form h1{
 }
 
 label{
-    display: inline-block;
-    font-size: 30px;
+    display: inline;
+    font-size: 20px;
     font-family: 'Mulish', sans-serif;
     
 }
 
 .radio, .checkbox{
     margin-left: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+input[id="1st-one-chose-only"]{
+    display: inline;
 }
 
 input{
@@ -96,25 +116,36 @@ input{
 }
 
 textarea {
-    padding: 12px 25px;
+    padding: 12px 15px;
     width: 100%;
     font-family: 'Mulish', sans-serif;
-    font-size: 2.2rem;
+    font-size: 1.5em;
     box-sizing: border-box;
     border-radius: 4px; 
+
 }
 
 .own-answear{
     padding: 0 30px;
+    padding-top: 10px;
  
 }
 
 .input-wrapper{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     background-color: rgba(255, 255, 255, 0.717);
     padding: 20px 0px;
     border:#d8dcdd solid 2px;
     border-radius: 15px;
 
+}
+
+select[id="gender"]{
+    margin-left:20px;
+    margin-top: 5px;
+    font-size:15px
+}
+option{
+    font-size: 1em;
 }
 /* Tutorial CSS */
