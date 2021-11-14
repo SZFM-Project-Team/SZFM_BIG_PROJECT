@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="mytutorial.css">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Philosopher:wght@700&display=swap" rel="stylesheet">   
     <script defer src="tutorial.js"></script> 
+    <link rel="stylesheet" href="mytutorial.css">
+    <script defer src="tutorial.js"></script> 
     <title>Questionare</title>
 </head>
 <!-- Ha magyar lesz a kérőív akkor új fontot kell keresni a Philosopher helyett mert nem tudja lekezelni az összes ékezetes betűt. De mivel nem tudtam milyen nyelven lesz, így meghagytam így.  -->

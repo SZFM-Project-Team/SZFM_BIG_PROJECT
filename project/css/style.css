@@ -12,7 +12,7 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding-top: 10px;
-    
+
 }
 
 header{
@@ -30,7 +30,7 @@ header h1{
     padding: 20px;
 }
 
-header p{
+h1+p{
     font-family: 'Mulish', sans-serif;
     font-size: 1em;
     padding: 0 40px;
@@ -70,6 +70,20 @@ form h1{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
     text-align: center;
     font-size: 0.8em;
+    font-weight: 1000;
+}
+ .tutorial{
+    margin-left: 30px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    background-color: #d8dcdd;
+    color: #3391D1;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px 35px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
+    text-align: center;
+    font-size: 1.5em;
     font-weight: 1000;
 }
 
@@ -134,3 +148,4 @@ select[id="gender"]{
 option{
     font-size: 1em;
 }
+/* Tutorial CSS */
