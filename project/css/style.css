@@ -1,5 +1,5 @@
 html{
-    background-image: linear-gradient(#3391D1, #D8DCDD);
+    background-image: linear-gradient(#3391D1, #d8dcdd);
 }
 
 body{
@@ -11,12 +11,18 @@ body{
     min-height: 300px;
     max-width: 1024px;
     margin: 0 auto;
+    padding-top: 10px;
+    
 }
 
 header{
-    border-bottom: 3px solid white;
+    border: 2px solid black;
+    border-radius: 15px;
     margin-bottom: 40px;
+    margin-top: 10px;
+    color: white;
 }
+
 
 header h1{
     font-family: 'Philosopher', sans-serif;
@@ -24,7 +30,7 @@ header h1{
     padding: 30px;
 }
 
-header p{
+h1+p{
     font-family: 'Mulish', sans-serif;
     font-size: 2em;
     padding: 0 40px;
@@ -49,6 +55,20 @@ form h1{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
     text-align: center;
     font-size: 2em;
+}
+ .tutorial{
+    margin-left: 30px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    background-color: #d8dcdd;
+    color: #3391D1;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px 35px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 1000;
 }
 
 .submit{
@@ -87,8 +107,15 @@ textarea {
 
 .own-answear{
     padding: 0 30px;
+ 
 }
 
 .input-wrapper{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.717);
+    padding: 20px 0px;
+    border:#d8dcdd solid 2px;
+    border-radius: 15px;
+
 }
+/* Tutorial CSS */
