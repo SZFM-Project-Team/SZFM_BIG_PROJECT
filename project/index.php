@@ -224,6 +224,14 @@
                 <input type="submit" value="Send" class="button pointer">
             </div>
         </form>
+		<?php
+
+            if (isset($_POST['store'])) 
+            {
+                databasePush(serialize($_POST));
+            }
+
+        ?>
     </div>
 </body>
 </html>
