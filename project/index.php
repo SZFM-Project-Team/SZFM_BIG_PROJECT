@@ -329,7 +329,10 @@
 
             if (isset($_POST['store'])) 
             {
+
+                echo '<script>storage.clear();</script>';
                 databasePush(serialize($_POST));
+
             }
 
         ?>
