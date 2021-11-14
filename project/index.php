@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Philosopher:wght@700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="mytutorial.css">
+    <script defer src="tutorial.js"></script> 
+
     <title>Questionare</title>
 </head>
 <!-- Ha magyar lesz a kérőív akkor új fontot kell keresni a Philosopher helyett mert nem tudja lekezelni az összes ékezetes betűt. De mivel nem tudtam milyen nyelven lesz, így meghagytam így.  -->
@@ -16,11 +19,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <div class="container">
-        <header>
+    <header>
             <h1>Title of the questionare</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum earum distinctio corrupti nesciunt! Ea
                 expedita, aspernatur sunt rem repellat falsen dolorum omnis! Voluptates ut rerum porro vitae dolor est quod
                 vero quos necessitatibus ipsam! Nemo illo quae consequatur error voluptatum.</p>
+            <button class="tutorial pointer" id=modbutton data-modal-target="#modal">Jelmagyarázat</button>
+            <div class="modal" id=modal>
+                <div class="modal-header">
+                    <div class="title">Jelmagyarázat</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus tempora debitis ad optio harum quisquam, voluptatem tenetur nihil ullam nam blanditiis architecto deserunt, sed error?</p>     
+                </div>
+            </div>
+            <div id="overlay"></div>
         </header>
 
         <?php
