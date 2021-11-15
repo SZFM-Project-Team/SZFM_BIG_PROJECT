@@ -27,10 +27,16 @@ header{
 header h1{
     font-family: 'Philosopher', sans-serif;
     font-size:2.5em;
-    padding: 20px;
 }
 
-h1+p{
+header > h1
+{
+    text-align: center;  
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+header p{
     font-family: 'Mulish', sans-serif;
     font-size: 1em;
     padding: 0 40px;
@@ -73,18 +79,19 @@ form h1{
     font-weight: 1000;
 }
  .tutorial{
-    margin-left: 30px;
+    margin-left: 40px;
     text-decoration: none;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background-color: #d8dcdd;
     color: #3391D1;
     font-family: 'Mulish', sans-serif;
-    padding: 20px 35px;
+    padding: 10px 20px;
     border-radius: 7px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
     text-align: center;
-    font-size: 1.5em;
+    font-size: 0.8em;
     font-weight: 1000;
+    margin-top: 10px;
 }
 
 .submit{
