@@ -1,9 +1,5 @@
-html{
-    background-image: linear-gradient(#3391D1, #d8dcdd);
-}
-
 body{
-    margin: 0;
+    background-image: linear-gradient(#3391D1, #d8dcdd);
 }
 
 .container{
@@ -27,10 +23,16 @@ header{
 header h1{
     font-family: 'Philosopher', sans-serif;
     font-size:2.5em;
-    padding: 20px;
 }
 
-h1+p{
+header > h1
+{
+    text-align: center;  
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+header p{
     font-family: 'Mulish', sans-serif;
     font-size: 1em;
     padding: 0 40px;
@@ -57,10 +59,9 @@ form h1{
     text-align: center;
     font-size: 1em;
 }
+
  .tutorial{
     margin-left: 40px;
-    margin-top: 10px;
-    text-decoration: none;
     margin-bottom: 20px;
     background-color: #d8dcdd;
     color: #3391D1;
@@ -70,21 +71,28 @@ form h1{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
     text-align: center;
     font-size: 0.8em;
-    font-weight: 1000;
+    font-weight: 700;
+    margin-top: 10px;
+    border-color: rgba(255, 222, 173, 0);
+    box-shadow: none;
 }
- .tutorial{
-    margin-left: 30px;
-    text-decoration: none;
-    margin-bottom: 30px;
-    background-color: #d8dcdd;
+
+.tutorial:hover{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: #d8dcdd82;
     color: #3391D1;
     font-family: 'Mulish', sans-serif;
-    padding: 20px 35px;
+    padding: 10px 20px;
     border-radius: 7px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228); */
     text-align: center;
-    font-size: 1.5em;
-    font-weight: 1000;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-top: 10px;
+    border-color: rgba(255, 255, 255, 0.428);
+    box-shadow: none;
+    transition: 0.8s;
 }
 
 .submit{
@@ -148,4 +156,13 @@ select[id="gender"]{
 option{
     font-size: 1em;
 }
-/* Tutorial CSS */
+.modal-body, .modal-title{
+    color: black;     
+}
+button, .btn{
+    border-color:rgba(255, 255, 255, 0);
+}
+.modal-title{
+    margin: 0 auto;
+}
+
