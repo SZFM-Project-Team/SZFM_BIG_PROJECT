@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body onload="">
-    
     <?php include("php/database_controller.php"); ?>
     <div class="container">
         <script type="text/javascript">
@@ -37,6 +36,8 @@
             }
 
         </script>
+
+  
         <header>
             <h1>Matematikai kompetencia felmérése</h1>
             <p>A kérdőív célja a 14-60 éves korosztály matematikai kompetenciáljának felmérése 15 kérdés segítségével. </p>
@@ -44,34 +45,42 @@
             <p>A következő tíz kérdésnél nem lesz megadva a helyes válasz, ezek a kérdések öszettesgében se lesznek olyan nehezek mint az első öt. </p>
             <p>A kérdőív teljesen anonim, a megadott válaszok csakis statisztikai célra lesznek felhasználva.</p>
             <p>A kérdőív kitöltése max 10 percet vesz igénybe. </p>
-        
+            
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary tutorial" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="tutorial btn-outline-*" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Jelmagyarázat
             </button>
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">    
+                            <h5 class="modal-title text-center"
+                            id="exampleModalLabel">Jelmagyarázat</h5>  
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>A *-al jelzett kérédések kitöltése kötelező!</p>
+                            <p>(felfele mutató pingvin képe) - ha ezt látja megjelenni a kérdés mellett a küldés gombra kiattintás után, akkor az adott kérdést megfelelően töltötte ki, de van olyan amit nem töltött ki és kötelező volt!</p> 
+                            <p>(lefele mutató pingvin képe) - ha ezt látja megjelenni a kérdés mellett a küldés gombra kiattintás után, akkor az adott kérdést nem válaszolta meg, pedig kötelező volt!</p> 
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                     A *-al jelzett kérédések kitöltése kötelező!
-                    (felfele mutató pingvin képe)-el jelzett kérdésre helyes választ adott 
-                    (lefele mutató pingvin képe)-el jelzett kérdésre rossz választ adott 
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-                </div>
-            </div>
             </div>
         </header>
        
+
+
+
+
+
+
+
+
+
+
+
         <?php
         $igazhamis = 0;
         $egyvalasz = 0;
