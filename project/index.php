@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematikai kérdőív</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Philosopher:wght@700&display=swap" rel="stylesheet">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/"></script>
     <script type="text/javascript" src="./js/localstorage_controller.js"></script>
-    <link rel="stylesheet" href="css/mytutorial.css">
-    <script defer src="./js/tutorial.js"></script> 
-    <link rel="stylesheet" href="css/css-reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Philosopher:wght@700&display=swap" rel="stylesheet">    
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <title>Questionare</title>
+    <link rel="stylesheet" href="./css/css-reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<!-- Ha magyar lesz a kérőív akkor új fontot kell keresni a Philosopher helyett mert nem tudja lekezelni az összes ékezetes betűt. De mivel nem tudtam milyen nyelven lesz, így meghagytam így.  -->
 <body onload="">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     <?php include("php/database_controller.php"); ?>
     <div class="container">
         <script type="text/javascript">
@@ -40,6 +36,8 @@
             }
 
         </script>
+
+  
         <header>
             <h1>Matematikai kompetencia felmérése</h1>
             <p>A kérdőív célja a 14-60 éves korosztály matematikai kompetenciáljának felmérése 15 kérdés segítségével. </p>
@@ -47,21 +45,42 @@
             <p>A következő tíz kérdésnél nem lesz megadva a helyes válasz, ezek a kérdések öszettesgében se lesznek olyan nehezek mint az első öt. </p>
             <p>A kérdőív teljesen anonim, a megadott válaszok csakis statisztikai célra lesznek felhasználva.</p>
             <p>A kérdőív kitöltése max 10 percet vesz igénybe. </p>
-            <button class="tutorial pointer" id=modbutton data-modal-target="#modal">Jelmagyarázat</button>
-            <div class="modal" id=modal>
-                <div class="modal-header">
-                    <div class="title">Jelmagyarázat</div>
-                    <button data-close-button class="close-button">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <p> A *-al jelzett kérédések kitöltése kötelező!</p>
-                    <p>(felfele mutató pingvin képe)-el jelzett kérdésre helyes választ adott </p> 
-                    <p>(lefele mutató pingvin képe)-el jelzett kérdésre rossz választ adott </p> 
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="tutorial btn-outline-*" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Jelmagyarázat
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">    
+                            <h5 class="modal-title text-center"
+                            id="exampleModalLabel">Jelmagyarázat</h5>  
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>A *-al jelzett kérédések kitöltése kötelező!</p>
+                            <p>(felfele mutató pingvin képe) - ha ezt látja megjelenni a kérdés mellett a küldés gombra kiattintás után, akkor az adott kérdést megfelelően töltötte ki, de van olyan amit nem töltött ki és kötelező volt!</p> 
+                            <p>(lefele mutató pingvin képe) - ha ezt látja megjelenni a kérdés mellett a küldés gombra kiattintás után, akkor az adott kérdést nem válaszolta meg, pedig kötelező volt!</p> 
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="overlay"></div>
         </header>
        
+
+
+
+
+
+
+
+
+
+
+
         <?php
         $igazhamis = 0;
         $egyvalasz = 0;
