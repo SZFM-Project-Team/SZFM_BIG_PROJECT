@@ -22,3 +22,11 @@
 | 2021.12.05 23:20 | Tari Levente | Egyéni válaszos kérdésnél a válasz megmarad újratöltéskor | Sikeres | Újratöltés gomb | Megmarad a válasz | Megmarad a válasz |
 | 2021.12.05 23:21 | Tari Levente | Küldés gombra kattintás kitöltés előtt | Sikeres | Küldés gomb | Visszadob egy kötelező kérdésre | Visszadob egy kötelező kérdésre |
 | 2021.12.05 23:22 | Tari Levente | Küldés gombra kattintás kitöltés után | Sikeres | Küldés gomb | Megjelenik a sikeres kitöltés | Megjelenik a sikeres kitöltés |
+| 2021.12.05 23:22 | Fiedler Norbert Béla | Admin panelről adat betöltése CSV állományba | Sikeres | Adatok helyes megadása | jól generált CSV string | jól generált CSV string |
+| 2021.12.05 23:23 | Fiedler Norbert Béla | CSV-ből kérdés generálása a főoldalra | Sikeres | Új kérdés megjelenik | CSV string olvasható a process php-nak | CSV string olvasható a process php-nak |
+| 2021.12.05 23:24 | Fiedler Norbert Béla | Admin panelen a gombok kötelezően kitöltendőnek kell lenni | Sikeres | Megjelenik hibaüzenet | Required mezőként megjelenítve | Required mezőként megjelenítve |
+| 2021.12.05 23:26 | Fiedler Norbert Béla | Adatbázisból jól nyeri ki az adatokat | Sikeres | A datas.php oldalon jól jelennek meg | Jó SQL Query | Jó SQL Query |
+| 2021.12.05 23:27 | Fiedler Norbert Béla | Adatok visszatöltése kilépés után | Sikertelen | Frissítés gomb többszöri megnyomása | Minden frissítés alkalmával betölti | Nem minden frissítéssel tölti vissza | 
+| 2021.12.05 23:28 | Fiedler Norbert Béla | Ikonok jól jelennek meg | Sikeres | Kötelező és nem kötelező mező esetén jól megjelenő ikonok | jól hivatkozott img tagek | jól hivatkozott img tagek |
+| 2021.12.05 23:32 | Fiedler Norbert Béla | Jelmagyarázat gomb működik | Sikeres | Gomb megnyomása esetén elsötétül a háttér és megjelenik a modal box | összhang css és js fájlok | összhang css és js fájlok |
+| 2021.12.05 23:33 | Fiedler Norbert Béla | Automatikus id generálás kérdésnél | Sikeres | Egyedi ID-k generálódnak le | PHP kód a index.php-ban | PHP kód a index.php-ban |
