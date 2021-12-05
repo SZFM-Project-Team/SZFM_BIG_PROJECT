@@ -1,7 +1,15 @@
 Question Number,Question type,Question title,Question nameid,Question answers,Incrementer,Required
 1;CO;Legmagasabb iskolai végzettsége:;highest_education;kevesebb mint 8 osztály.,általános iskola.,gimnázium.,szakközépiskola.,egyetem.,főiskola;$egyvalasz++;true
-2;TF;1. Döntse el, hogy igaz vagy hamis: Ha egy szám osztható 9-cel, akkor osztható 3-mal is.;division_by_three;;$igazhamis++;true
-3;CO;2. Mit mondd ki a Pitagorasz-tétel?;pythagoras_theorem;Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) négyzetösszegével.,Bármely háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) négyzetösszegével.,Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) összegével.,Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) köbe megegyezik a másik két oldal (a befogók) négyzetösszegével.,Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) négyzetkülönbségével.;$egyvalasz++;true
-4;TF;3. Döntse el, hogy igaz e a következő állítás: Azokat a természetes számokat, amelyeknek pontosan két osztójuk van, prímszámoknak nevezzük.;prime_has_two_divider;;$igazhamis++;true
-5;MC;4. Jelölje be az összes igaz állítást!;select_true_answers1;Minden kocka téglatest.,Minden téglatest kocka.,Van olyan téglatest amely nem kocka.,Van olyan kocka, amely nem téglatest.,Ha egy testet ha egybevágó téglalap határól, akkor az kocka.,Ha egy téglatestnek van három egybevágó lapja, akkor legalább négy lapja egybevágó.,A fentiek közül az összes állítás hamis.;$tobbvalasz++;false
-6;CA;5. Írjon legalább 2  számpárt, amelynek a legnagyobb közös oszója 6! (pl:54-24);division_pair_divider_six;;$sajatvalasz++;true
+2;CO;1. Hány játékos játszik egy csapatban?;player_number_in_a_team;11.,9.,15;$egyvalasz++;true
+3;TF;2. Igaz-e, hogy nyert már labdarugó-világbajnokságot Magyarország?;hungary_soccer_wc_won;;$igazhamis++;true
+4;MC;3. Jelölje be az összes klubbot ahol Cristiano Ronaldo már játszott! Ha Ön szerint az egyik helyen se játszott a felsoroltak közül, akkor ne jelöljön be semmit! (kivédeni a trut) ;christiano_ronaldo_played_in_club;Manchester United Ez.,Manchestre City.,Juventus Ez.,Real Madrid Ez.,DVSC.,Chelsea;$tobbvalasz++;false
+5;TF;4. Igaz vagy hamis? Nyert már Premier League-t a Chelsea.;is_chelsea_won_premier_league;;$igazhamis++;true
+6;CO;5. Mit dönthet el a pénzfeldobás győztese a mérkőzés kezdetekor?;coinflip_decision_on_start;Térfelet vagy kezdést választ.,Térfelet választ.,Kezdést választ;$egyvalasz++;true
+7;CO;6. Pontosan a tizenhatos vonalán rúgják fel a támadó csapat játékosát. Mit kell ítélni?;sixteen_line_penalty;Büntetőt.,Szabadrugást;$egyvalasz++;true
+8;CO;7. Ki nyerte a 2020-as labdarúgó-Európa-bajnokságot?;who_won_2020_soccer_ECS;Olaszország.,Magyarország.,Portugália.,Brazília;$egyvalasz++;true
+9;CO;8. Szabadrúgáshoz jut a védekező csapat a saját 16-osán belül. Elvégzik, de utána a 16-os területére berohanó támadó belövi a kapuba. Mi a jó döntés?;sixteen_line_inner_defender_team;Gól.,Megismételt szabadrugás.,Kirúgás.,Sárgalap;$egyvalasz++;true
+10;CO;9. Egy pályán lévő játékos egy tárggyal túlzott erővel megdobja az ellenfelét, aki a dobó játékos csapatának 16-osán belül áll. Mi a helyes ítélet?;throw_item_strongly_to_enemy;Piros lap és közvetett szabadrugás a megdobott játékos helyéről.,Piros lap és szabadrugás a dobó játékos helyéről.,Piros lap és büntető;$egyvalasz++;true
+11;CO;10. Csere esetén a lecserélendő játékos nem hajlandó elhagyni a játékteret. Mi a helyes ítélet?;switching_player_refuse_leave_field;Piros lap.,A játékot folytatni kell.,Sárga lap;$egyvalasz++;true
+12;CA;11. Mit gondol, ki fogja nyerni a 2021-22-es Premier League-et? ;prediction_who_will_win_20212_premier_league;;$sajatvalasz++;true
+13;TF;12. Mit gondol, ki fog jutni Magyarország a következő  labdarúgó-világbajnokságra?;will_hungary_qualify_for_next_soccer_cs;;$igazhamis++;true
+14;CA;13. Mit gondol, ki nyeri a következő labdarugó világbajnokságot?;who_will_win_next_soccer_cship;;$sajatvalasz++;true

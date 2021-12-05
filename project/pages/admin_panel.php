@@ -67,7 +67,7 @@
                 
                 <div id="Question_required" class="Question_required">
                     <div>
-                        <input type="radio" name="RQ" id="rq_true" value="false" required>
+                        <input type="radio" name="RQ" id="rq_true" value="true" required>
                         <label for="rq_true">True</label>
                     </div>
 
