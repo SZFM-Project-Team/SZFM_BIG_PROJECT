@@ -40,9 +40,9 @@
   
         <header>
             <h1>Matematikai kompetencia felmérése</h1>
-            <p>A kérdőív célja a 14-60 éves korosztály matematikai kompetenciáljának felmérése 15 kérdés segítségével. </p>
-            <p>Az első öt kérdés célja, hogy felmérjük, hogy ki mennyire jártas a matematikában. Ezeknél a kérdéseknél a kitöltő visszajezést kap, hogy helyes választ adott e a kérdésre vagy sem.</p>
-            <p>A következő tíz kérdésnél nem lesz megadva a helyes válasz, ezek a kérdések öszettesgében se lesznek olyan nehezek mint az első öt. </p>
+            <p>A kérdőív célja a 14-60 éves korosztály matematikai kompetenciáljának felmérése 10 kérdés segítségével. </p>
+            <p>Az első öt kérdés célja, hogy felmérjük, hogy ki mennyire jártas a matematikában. Ezek kicsit általános jellegű kérdések lesznek.</p>
+            <p>A következő öt kérdés, már kicsit komplexebb lesz, megoldásuk mélyebb matematikai tudást igényel mint az első öt kérdés esetén.</p>
             <p>A kérdőív teljesen anonim, a megadott válaszok csakis statisztikai célra lesznek felhasználva.</p>
             <p>A kérdőív kitöltése max 10 percet vesz igénybe. </p>
             
