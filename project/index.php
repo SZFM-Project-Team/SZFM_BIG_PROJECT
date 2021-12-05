@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matematikai kérdőív</title>
+    <title>Foci kérdőív</title>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Philosopher:wght@700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -40,12 +40,12 @@
 
   
         <header>
-            <h1>Matematikai kompetencia felmérése</h1>
-            <p>A kérdőív célja a 14-60 éves korosztály matematikai kompetenciáljának felmérése 15 kérdés segítségével. </p>
-            <p>Az első öt kérdés célja, hogy felmérjük, hogy ki mennyire jártas a matematikában. Ezeknél a kérdéseknél a kitöltő visszajezést kap, hogy helyes választ adott e a kérdésre vagy sem.</p>
-            <p>A következő tíz kérdésnél nem lesz megadva a helyes válasz, ezek a kérdések öszettesgében se lesznek olyan nehezek mint az első öt. </p>
+            <h1>Football kérőív</h1>
+            <p>A kérdőív célja a 14-60 éves korosztály football kompetenciáljának felmérése 13 kérdés segítségével. </p>
+            <p>Az első tíz kérdés célja, hogy felmérjük, hogy ki mennyire jártas a fociban.</p>
+            <p>A következő három kérdés, célja pedig, prediktálás a foci témakörében.</p>
             <p>A kérdőív teljesen anonim, a megadott válaszok csakis statisztikai célra lesznek felhasználva.</p>
-            <p>A kérdőív kitöltése max 10 percet vesz igénybe. </p>
+            <p>A kérdőív kitöltése max 5 percet vesz igénybe.</p>
             
             <!-- Button trigger modal -->
             <button type="button" class="tutorial btn-outline-*" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -64,9 +64,9 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <p><img src="srcimg\penguin_accepted.png" alt="Felfele muatató pingvin">
+                        <p><img src="./srcimg/ball.png" alt="Focilabda képe">
                          - ha ezt látja megjelenni a kérdés mellett, akkor az adott kérdés megválaszolása nem kötelező!</p> 
-                            <p><img src="srcimg\penguin_declined.png" alt="Felfele muatató pingvin"> - ha ezt látja megjelenni a kérdés mellett, akkor az adott kérdés megválaszolása kötelező!</p> 
+                         <p><img src="./srcimg/redcard.png" alt="Piros lap"> - ha ezt látja megjelenni a kérdés mellett, akkor az adott kérdés megválaszolása kötelező!</p> 
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     if ($rq == true)
                     {
                         echo '<div class="input-wrapper ">
-                        <h1>'.$block_name.'<img src="srcimg\penguin_declined.png" alt="Felfele muatató pingvin"></h1>
+                        <h1>'.$block_name.'<img src="./srcimg/redcard.png" alt="Piroslap képe"></h1>
                         
                         <div class="radios">
                         <div class="radio">
@@ -104,7 +104,7 @@
                     else
                     {
                         echo '<div class="input-wrapper ">
-                        <h1>'.$block_name.'<img src="srcimg\penguin_accepted.png" alt="Felfele muatató pingvin"></h1>
+                        <h1>'.$block_name.'<img src="./srcimg/ball.png" alt="Focilabda képe"></h1>
                         <div class="radio">
                             <input type="radio" onchange="putIntoLocalStorage(storage, `'.$name.'`, `true`);" name="'.$name.'['.strval($szamlalo).']" id="?t'.$name.'" value="true">
                             <label for="?t'.$name.'">Igaz</label>
@@ -124,7 +124,7 @@
                     if ($rq == false)
                     {
                         echo '<div class="input-wrapper">
-                        <h1>'.$block_name.'<img src="srcimg\penguin_accepted.png" alt="Felfele muatató pingvin"></h1>'; 
+                        <h1>'.$block_name.'<img src="./srcimg/ball.png" alt="Focilabda képe"></h1>'; 
                         $i = 1;
                         echo '<div class="radios">';
                         foreach ($block_values as $bv)
@@ -151,7 +151,7 @@
                     else
                     {
                         echo '<div class="input-wrapper">
-                        <h1>'.$block_name.'<img src="srcimg\penguin_declined.png" alt="Dühös pingvin"></h1>';
+                        <h1>'.$block_name.'<img src="./srcimg/redcard.png" alt="Piroslap képe"></h1>';
                         $i = 1;
                         echo '<div class="radios">';
                         foreach ($block_values as $bv)
@@ -182,7 +182,7 @@
                     if ($rq == false)
                     {
                         echo    '<div class="input-wrapper checkbox-group">
-                                <h1>'.$block_name.'<img src="srcimg\penguin_accepted.png" alt="Felfele muatató pingvin"></h1>
+                                <h1>'.$block_name.'<img src="./srcimg/ball.png" alt="Focilabda képe"></h1>
                                 <div class="block">';
                                 
                         $i = 1;
@@ -211,7 +211,7 @@
                     else
                     {
                         echo    '<div class="input-wrapper checkbox-group required">
-                                <h1>'.$block_name.'<img src="srcimg\penguin_declined.png" alt="Felfele muatató pingvin"></h1>  
+                                <h1>'.$block_name.'<img src="./srcimg/redcard.png" alt="Piroslap képe"></h1>  
                                 <div class="block">';
                         $i = 1;
                         foreach ($block_values as $bv)
@@ -247,7 +247,7 @@
                         $id .= $block_name[0].'?_'.$block_name[strlen($block_name)-1];
                         echo    '<div class="input-wrapper">
                                     <div class="question">
-                                        <h1>'.$block_name.'<img src="srcimg\penguin_accepted.png" alt="Felfele muatató pingvin"><h1>        
+                                        <h1>'.$block_name.'<img src="./srcimg/ball.png" alt="Focilabda képe"><h1>        
                                     </div>
                                     <div class="own-answear">
                                         <textarea name="'.$name.'['.strval($szamlalo).']" id="'.$id.'" cols="50" rows="5" placeholder="'.$customPlaceholder.'"></textarea>
@@ -261,7 +261,7 @@
                         $id .= $block_name[0].'?_'.$block_name[strlen($block_name)-1];
                         echo    '<div class="input-wrapper">
                                     <div class="question">
-                                        <h1>'.$block_name.'<img src="srcimg\penguin_declined.png" alt="Felfele muatató pingvin"></h1>  
+                                        <h1>'.$block_name.'<img src="./srcimg/redcard.png" alt="Piroslap képe"></h1>  
                                     </div>
                                     <div class="own-answear">
                                         <textarea name="'.$name.'['.strval($szamlalo).']" id="'.$id.'" cols="50" rows="5" placeholder="'.$customPlaceholder.'" required></textarea>
@@ -278,7 +278,7 @@
         <form action="thank_you.html" method="post">
 
             <div class="input-wrapper">
-                <h1>Neme:<img src="srcimg\penguin_accepted.png" alt="Felfele muatató pingvin"></h1> 
+                <h1>Neme:<img src="./srcimg/ball.png" alt="Focilabda képe"></h1> 
                 <div class="block">
                     <select name="gender" id="gender">
                         <option value="Not-chosen">Válassz nemet </option>
@@ -289,7 +289,7 @@
                 </div>
             </div>
             <div class="input-wrapper">
-            <h1>Életkora:<img src="srcimg\penguin_accepted.png" alt="Felfele muatató pingvin"></h1>
+            <h1>Életkora:<img src="./srcimg/ball.png" alt="Focilabda képe"></h1>
                 <div class="block">
                     <select name="gender" id="gender">
                         <option value="Not-chosen">Válassza ki hány éves </option>

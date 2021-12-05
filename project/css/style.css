@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(#3391D1, #d8dcdd);
+    background-image: linear-gradient( #6bf172, #BEB2AD, #FBFBFB);
 }
 
 .container{
@@ -8,6 +8,7 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding-top: 10px;
+    color:black;
 }
 
 header{
@@ -47,8 +48,8 @@ form h1{
 }
 
 .button{
-    background-color:#3391D1;
-    color:white;
+    background-color:#6bf172;
+    color:black;
     font-family: 'Mulish', sans-serif;
     padding: 15px 30px;
     display: inline-block;
@@ -71,8 +72,8 @@ form h1{
  .tutorial{
     margin-left: 40px;
     margin-bottom: 20px;
-    background-color: #d8dcdd;
-    color: #3391D1;
+    background-color: #d8dcddab;
+    color: black;
     font-family: 'Mulish', sans-serif;
     padding: 10px 20px;
     border-radius: 7px;
@@ -81,7 +82,7 @@ form h1{
     font-size: 0.8em;
     font-weight: 700;
     margin-top: 10px;
-    border-color: rgba(255, 222, 173, 0);
+    border: rgb(0, 0, 0) solid 1px;
     box-shadow: none;
 }
 
@@ -89,7 +90,7 @@ form h1{
     margin-left: 40px;
     margin-bottom: 20px;
     background-color: #d8dcdd82;
-    color: #3391D1;
+    color: black;
     font-family: 'Mulish', sans-serif;
     padding: 10px 20px;
     border-radius: 7px;
