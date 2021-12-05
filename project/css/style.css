@@ -8,7 +8,6 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding-top: 10px;
-
 }
 
 header{
@@ -18,7 +17,6 @@ header{
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.717);
 }
-
 
 header h1{
     font-family: 'Philosopher', sans-serif;
@@ -45,19 +43,28 @@ form h1{
     font-family: 'Philosopher', sans-serif;
     font-size: 1.5em;
     margin-bottom: 10px;
+    /* display: inline; */
 }
 
 .button{
     background-color:#3391D1;
     color:white;
     font-family: 'Mulish', sans-serif;
-    padding: 20px 35px;
+    padding: 15px 30px;
     display: inline-block;
-    /* margin-top: 20px; */
     border-radius: 7px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.228);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.055);
     text-align: center;
     font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.button:hover{
+    background-color:#3392d1c3;
+    color:black;
+    transition: 1;
+    font-weight: 700;
 }
 
  .tutorial{
@@ -107,14 +114,14 @@ form h1{
 label{
     display: inline;
     font-size: 20px;
-    font-family: 'Mulish', sans-serif;
-    
+    font-family: 'Mulish', sans-serif;  
 }
 
 .radio, .checkbox{
     margin-left: 30px;
     margin-bottom: 10px;
 }
+
 input[id="1st-one-chose-only"]{
     display: inline;
 }
@@ -130,13 +137,11 @@ textarea {
     font-size: 1.5em;
     box-sizing: border-box;
     border-radius: 4px; 
-
 }
 
 .own-answear{
     padding: 0 30px;
     padding-top: 10px;
- 
 }
 
 .input-wrapper{
@@ -151,18 +156,37 @@ textarea {
 select[id="gender"]{
     margin-left:20px;
     margin-top: 5px;
-    font-size:15px
+    font-size:15px;
 }
+
 option{
     font-size: 1em;
 }
+
 .modal-body, .modal-title{
     color: black;     
 }
+
+.modal-title{
+    font-weight: 700;
+}
+
 button, .btn{
     border-color:rgba(255, 255, 255, 0);
 }
-.modal-title{
-    margin: 0 auto;
+
+/* Pingvin képek */
+img{
+    height: 1.5em;
+    width: 1.5em;
+    margin-left: 10px;
 }
 
+.radios{
+    margin-top: 10px;
+}
+
+.block{
+    display: block;
+    margin-top: 10px;
+}
