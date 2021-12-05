@@ -2,7 +2,7 @@ Question Number,Question type,Question title,Question nameid,Question answers,In
 1;CO;Legmagasabb iskolai végzettsége:;highest_education;kevesebb mint 8 osztály.,általános iskola.,gimnázium.,szakközépiskola.,egyetem.,főiskola;$egyvalasz++;true
 2;CO;1. Hány játékos játszik egy csapatban?;player_number_in_a_team;11.,9.,15;$egyvalasz++;true
 3;TF;2. Igaz-e, hogy nyert már labdarugó-világbajnokságot Magyarország?;hungary_soccer_wc_won;;$igazhamis++;true
-4;MC;3. Jelölje be az összes klubbot ahol Cristiano Ronaldo már játszott! Ha Ön szerint az egyik helyen se játszott a felsoroltak közül, akkor ne jelöljön be semmit! (kivédeni a trut) ;christiano_ronaldo_played_in_club;Manchester United Ez.,Manchestre City.,Juventus Ez.,Real Madrid Ez.,DVSC.,Chelsea;$tobbvalasz++;false
+4;MC;3. Jelölje be az összes klubbot ahol Cristiano Ronaldo már játszott! Ha Ön szerint az egyik helyen se játszott a felsoroltak közül, akkor ne jelöljön be semmit!;christiano_ronaldo_played_in_club;Manchester United.,Manchestre City.,Juventus.,Real Madrid.,DVSC.,Chelsea;$tobbvalasz++;false
 5;TF;4. Igaz vagy hamis? Nyert már Premier League-t a Chelsea.;is_chelsea_won_premier_league;;$igazhamis++;true
 6;CO;5. Mit dönthet el a pénzfeldobás győztese a mérkőzés kezdetekor?;coinflip_decision_on_start;Térfelet vagy kezdést választ.,Térfelet választ.,Kezdést választ;$egyvalasz++;true
 7;CO;6. Pontosan a tizenhatos vonalán rúgják fel a támadó csapat játékosát. Mit kell ítélni?;sixteen_line_penalty;Büntetőt.,Szabadrugást;$egyvalasz++;true
