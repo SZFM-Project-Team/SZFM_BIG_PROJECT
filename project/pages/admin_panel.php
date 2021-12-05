@@ -26,8 +26,8 @@
 
                 <div class="radios question-type-checkbox">
                     <div>
-                        <input type="radio" name="RD" id="OC" value="OC" required>
-                        <label for="OC">One Choice Only</label>
+                        <input type="radio" name="RD" id="CO" value="CO" required>
+                        <label for="CO">One Choice Only</label>
                     </div>
 
                     <div>

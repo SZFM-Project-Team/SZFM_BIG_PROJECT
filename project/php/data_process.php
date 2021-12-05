@@ -58,7 +58,7 @@
 
         switch ($tomb["RD"])
         {
-            case "OC":
+            case "CO":
                 $stringCSV .= '$egyvalasz++;';
                 break;
             case "MC":
