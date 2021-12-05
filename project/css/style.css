@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient( #6bf172, #BEB2AD, #FBFBFB);
+    background-image: linear-gradient(#3391D1, #d8dcdd);
 }
 
 .container{
@@ -15,7 +15,7 @@ header{
     border-radius: 15px;
     margin-bottom: 30px;
     margin-top: 10px;
-    color:black;
+    color: rgba(255, 255, 255, 0.717);
 }
 
 header h1{
@@ -47,8 +47,8 @@ form h1{
 }
 
 .button{
-    background-color:#6bf172;
-    color:black;
+    background-color:#3391D1;
+    color:white;
     font-family: 'Mulish', sans-serif;
     padding: 15px 30px;
     display: inline-block;
@@ -60,6 +60,7 @@ form h1{
     margin-bottom: 15px;
 }
 
+
 .button:hover{
     background-color:#beb2ada9;
     color:black;
@@ -70,8 +71,8 @@ form h1{
  .tutorial{
     margin-left: 40px;
     margin-bottom: 20px;
-    background-color: #d8dcddab;
-    color: black;
+    background-color: #d8dcdd;
+    color: #3391D1;
     font-family: 'Mulish', sans-serif;
     padding: 10px 20px;
     border-radius: 7px;
@@ -80,7 +81,7 @@ form h1{
     font-size: 0.8em;
     font-weight: 700;
     margin-top: 10px;
-    border: rgb(0, 0, 0) solid 1px;
+    border-color: rgba(255, 222, 173, 0);
     box-shadow: none;
 }
 
@@ -88,7 +89,7 @@ form h1{
     margin-left: 40px;
     margin-bottom: 20px;
     background-color: #d8dcdd82;
-    color: black;
+    color: #3391D1;
     font-family: 'Mulish', sans-serif;
     padding: 10px 20px;
     border-radius: 7px;
