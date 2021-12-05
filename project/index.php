@@ -138,10 +138,10 @@
                             $s .= $block_name[0];
                             $s .= $block_name[strlen($block_name)-1];
                             echo '<script>oc_ids.push(`'.$i.'_'.$s.'?`);</script>';
-                            echo    '<fieldset>
+                            echo    '<div class="radio">
                             <input type="radio" onchange="putIntoLocalStorage(storage, `one_'.$name.'!`, `'.$i.'_'.$s.'?`);" name="one_'.$name.'['.strval($szamlalo).']" id="'.$i.'_'.$s.'?" value="'.$bv.' class="radio">
                                         <label for="'.$i.'_'.$s.'?">'.$bv.'</label>
-                                    </div></fieldset>'
+                                    </div>'
                                     ;
                             $i++;
                         }
