@@ -30,3 +30,13 @@
 | 2021.12.05 23:28 | Fiedler Norbert Béla | Ikonok jól jelennek meg | Sikeres | Kötelező és nem kötelező mező esetén jól megjelenő ikonok | jól hivatkozott img tagek | jól hivatkozott img tagek |
 | 2021.12.05 23:32 | Fiedler Norbert Béla | Jelmagyarázat gomb működik | Sikeres | Gomb megnyomása esetén elsötétül a háttér és megjelenik a modal box | összhang css és js fájlok | összhang css és js fájlok |
 | 2021.12.05 23:33 | Fiedler Norbert Béla | Automatikus id generálás kérdésnél | Sikeres | Egyedi ID-k generálódnak le | PHP kód a index.php-ban | PHP kód a index.php-ban |
+| 2021.12.05 23:42 | Naghi Patrick-Mark | Rádiógombos listán való elemek kiválasztása | Sikeres | Rádiógomb kiválasztása | Az elemeket a listában ki lehet választani | Az elemeket a listában ki lehet választani |
+| 2021.12.05 23:45 | Naghi Patrick-Mark | Checkboxos listán való elemek kiválasztása | SIkeres | Checkbox(ok) kiválasztása | Az elemeket a listában ki lehet választani | Az elemeket a listában ki lehet választani |
+| 2021.12.05 23:48 | Naghi Patrick-Mark | Küldés gombra kattintás kitöltés után | Sikertelen | Küldés gomb | A válasz(ok) elküldése sikeres | Az elküldés sikertelen |
+| 2021.12.05 23:50 | Naghi Patrick-Mark | Jelmagyarázat pop-up bezárása azon kívüli(nem X re való kattintással) | Sikeres | Popup mellé kattintás | A popup ablak eltűnik |  A popup ablak eltűnik |
+| 2021.12.05 23:52 | Naghi Patrick-Mark | CSS design működése | Sikeres | - | Minden a várt módon jelenik meg | Minden a várt módon jelenik meg |
+| 2021.12.05 23:55 | Naghi Patrick-Mark | Küldés gombra kattintás kötelező mezők kitöltése előtt | Sikeres | Küldés gomb | Felvisz a kitöltetlen kötelező válasz(ok)hoz | Felvisz a kitöltetlen kötelező válasz(ok)hoz |
+| 2021.12.05 23:58 | Naghi Patrick-Mark | Küldés gombra kattintás rossz szintaktikával kitöltött saját válasz megadásnál | Sikertelen | saját válasz megadás panel | Felszólítja a felhasználót a helyes szintaktika betartására | Nem szólítja fel a felhasználót a helyes szintaktika betartására |
+| 2021.12.05 00:01 | Naghi Patrick-Mark | Admin panel kérdés feltöltés | Sikeres | Admin panel | A kívánt kérdés létrejön | A kívánt kérdés létrejön |
+| 2021.12.05 00:10 | Naghi Patrick-Mark | Kiválasztott válasz megtartása checkboxos kérdésnél oldal újratöltés esetén | Sikeres | Checkbox kijelölés, oldal újratöltése | Kiválasztva marad a checkbox | Kiválasztva marad a checkbox | 
+| 2021.12.06 00:15 | Naghi Patrick-Mark | Beírt válasz elmentése saját felelet megadásnál oldal újratöltés esetén | Sikertelen | Kérdés megválaszolása, oldal újratöltése | A beírt válasz megmarad | A beírt válasz nem marad meg |
