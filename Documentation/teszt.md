@@ -40,3 +40,9 @@
 | 2021.12.05 00:01 | Naghi Patrick-Mark | Admin panel kérdés feltöltés | Sikeres | Admin panel | A kívánt kérdés létrejön | A kívánt kérdés létrejön |
 | 2021.12.05 00:10 | Naghi Patrick-Mark | Kiválasztott válasz megtartása checkboxos kérdésnél oldal újratöltés esetén | Sikeres | Checkbox kijelölés, oldal újratöltése | Kiválasztva marad a checkbox | Kiválasztva marad a checkbox | 
 | 2021.12.06 00:15 | Naghi Patrick-Mark | Beírt válasz elmentése saját felelet megadásnál oldal újratöltés esetén | Sikertelen | Kérdés megválaszolása, oldal újratöltése | A beírt válasz megmarad | A beírt válasz nem marad meg |
+| 2021.12.06 01:20 | Szakács Ágnes | Reszponzivítás | Sikeres | index.html megjelenítése mobilon | index.html esztétikus megjelenése | index.html esztétikus megjelenítése |
+| 2021.12.06 01:22 | Szakács Ágnes | Reszponzivítás | Sikeres | index.html megjelenítése tableten | index.html esztétikus megjelenése | index.html esztétikus megjelenítése |
+| 2021.12.06 01:24 | Szakács Ágnes | Reszponzivítás | Sikeres | index.html megjelenítése nagy képernyőn | index.html esztétikus megjelenése | index.html esztétikus megjelenítése |
+| 2021.12.06 01:26 | Szakács Ágnes | Reszponzivítás | Sikeres | thank_you.html megjelenítése mobilon | thank_you.html esztétikus megjelenése | thank_you.html esztétikus megjelenítése |
+| 2021.12.06 01:27 | Szakács Ágnes | Reszponzivítás | Sikeres | thank_you.html megjelenítése tableten | thank_you.html esztétikus megjelenése | thank_you.html esztétikus megjelenítése |
+| 2021.12.06 01:28 | Szakács Ágnes | Reszponzivítás | Sikeres | thank_you.html megjelenítése nagy képernyőn | thank_you.html esztétikus megjelenése | thank_you.html esztétikus megjelenítése |
