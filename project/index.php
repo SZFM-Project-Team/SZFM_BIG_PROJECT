@@ -275,7 +275,7 @@
 
         ?>
 
-        <form action="thank_you.html" method="post">
+        <form method="post">
 
             <div class="input-wrapper">
                 <h1>Neme:<img src="./srcimg/ball.png" alt="Focilabda képe"></h1> 
