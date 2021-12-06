@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-image: linear-gradient(#3391D1, #d8dcdd);
+    background-image: linear-gradient( #6bf172, #BEB2AD, #FBFBFB);
 }
 
 header{
@@ -20,7 +20,7 @@ header h1{
 }
 
 .content{
-    border: 2px solid rgba(255, 255, 255, 0.717);
+    border: 2px solid black;
     border-radius: 15px;
 }
 
