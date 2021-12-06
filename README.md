@@ -13,3 +13,6 @@ A XAMPP-ot elindítva (lásd első pont) a böngészőve beírva a következő u
 * localhost/PHPMyadmin
 
 Létrehozunk egy új adatbázist **szfm_big** néven majd azon belül egy **kerdesek** nevű táblát, ami három oszlopot tartalmaz. A tábla létrejötte után megadjuk a szerkezetét ahol az első oszlop neve **Kerdoiv_ID**, a másodiké **Valaszok**, és a harmadiké **Kitoltes_ideje**.
+
+## Kérdés generálása egyszerűen:
+Látogassunk el a **localhost:8000/pages/admin_panel.php** oldalra és töltsük ki a megfelelő adatokat a kérdés generálásához. (A válaszokat, ha szükséges, akkor egymás alá egy sorba, Enterrel elválasztva legyenek!).
